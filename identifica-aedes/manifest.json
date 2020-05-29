@@ -1,0 +1,21 @@
+{
+    "name": "Identifica Aedes",
+    "short_name": "Identifica Aedes",
+    "icons": [{
+      "src": "/images/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }, {
+        "src": "/images/icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }, {
+        "src": "/images/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1C1C1C",
+    "theme_color": "#2E8B57"
+  }
