@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+  .line {
+    display:none;
+  }
+}  
+
+body {
+  background-color: #1C1C1C;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 6%;
+  display: block;
+}
+
+h1 {
+  color: #2E8B57;
+  margin: 1px;
+  text-transform: uppercase;
+}
+
+.line {
+  width: 270px;
+  border: 0.5px solid white;
+  margin: 0 auto;
+}
+
+p {
+  color: white;
+  margin-top: 30px;
+}
+
+input[type='file'] {
+  display: none
+}
+
+label {
+  background-color: #2E8B57;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin: 12px;
+  padding: 6px 20px;
+}
+
+#img {
+ height: 300px;
+ padding-top: 20px;
+}
+
+#btn-analisa {
+  background-color: #2E8B57;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin: 25px auto;
+  padding: 6px 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  display: none;
+}
