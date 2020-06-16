@@ -2,6 +2,7 @@
   .line {
     display:none;
   }
+  
 }  
 
 body {
@@ -50,6 +51,14 @@ label {
 #img {
  height: 300px;
  padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
 }
 
 #btn-analisa {
