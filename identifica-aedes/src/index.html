@@ -21,13 +21,17 @@
     <p>Selecione a imagem para ser analisada</p>
     <label for="file">Escolher</label>
     <input id="file" type="file" accept="image/*" onchange="loadFile(event)">
-    <div></div>
-    <img id="img" src="">
-    <button id="btn-analisa">Analisar</button>
+    <div class="image">
+        <img id="img" src="">
+    </div>
+    <div id="foot">
+      <button id="btn-analisa" onclick="loadResult({msg: '129 encontrados.'})">Analisar</button>
+      <p id="msg-result"></p>
+    </div>
   </div>  
 </body>
 <!-- partial -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script  src="./js/index.js"></script>
-
 </body>
 </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/index.css"  media="screen,projection"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+        <div class="cabecalho-logo center">
+            <img class="logo" src="img/novo-tempo-logo.png" alt="Novo Tempo">    
+        </div>
+        <div class="cabecalho-form">
+            <img class="image-form" src="img/image-form.png">
+        </div>
+        <div class="container">
+            <div class="row titulo">
+                <h5>Envie a sua dúvida</h5>
+            </div>
+            <form>
+                <div class="row">
+                    <span>NOME</span>
+                    <div class="col s12">
+                        <input placeholder="Escreva seu nome" id="nome" type="text" class="validate browser-default">
+                    </div>
+                </div>
+                <div class="row">
+                    <span>E-MAIL</span>
+                    <div class="col s12">
+                        <input placeholder="Deixe um e-mail para contato" id="email" type="email" class="validate browser-default">
+                    </div>
+                </div>
+                <div class="row">
+                    <span>MATÉRIA</span>
+                    <select id="materia" class="browser-default">
+                        <option value="" disabled selected>Escolha uma materia</option>
+                        <option value="1">Língua portuguesa</option>
+                        <option value="2">Matemática</option>
+                        <option value="3">Biologia</option>
+                        <option value="4">Física</option>
+                        <option value="5">Química</option>
+                        <option value="6">Filosofia</option>
+                        <option value="7">Inglês</option>
+                        <option value="8">Geografia</option>
+                        <option value="9">História</option>
+                        <option value="10">Sociologia</option>
+                        <option value="11">Educação física</option>
+                        <option value="12">Educação artística</option>
+                        <option value="13">literatura</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <span>DÚVIDA</span>
+                    <div class="col s12">
+                        <input placeholder="Escreva a sua dúvida" id="duvida" type="email" class="validate browser-default">
+                    </div>
+                </div>
+                <div class="row">
+                    <a id="enviar" class="btn">Enviar</a>
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+</html>

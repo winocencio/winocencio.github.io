@@ -1,0 +1,59 @@
+.cabecalho-logo {
+    background: #1C4D71;
+    width:100%;
+    height:68px;
+}
+
+.cabecalho-form {
+    width:100%;
+    height:82px;
+    background : #FFDA5D;
+}
+
+.logo{
+    margin-top: 13px;
+    width: 182;
+    height: 45;
+}
+
+.image-form{
+    position: absolute;
+    width: 117px;
+    height: 117px;
+    left: 326px;
+    top: 93px;
+}
+
+.browser-default {
+    padding: 5px;
+    border: 2px solid #005A9C;
+    font-size: 14px;
+    min-width: 250px;
+    max-width: 460px;
+}
+
+.col{
+    padding: 0 0 !important;
+}
+
+.browser-default:focus {
+    padding: 5px;
+    border: 2px solid #005A9C;
+    font-size: 14px;
+    min-width: 250px;
+    max-width: 460px;
+}
+
+/* Mudar para ser responsivo */
+/* .btn {
+    position: absolute;
+    width: 203px;
+    height: 46px;
+    left: 484px;
+    bottom: 100px;
+
+    background: #005A9C;
+    border: 2px solid #005A9C;
+    box-sizing: border-box;
+    border-radius: 8px;
+} */

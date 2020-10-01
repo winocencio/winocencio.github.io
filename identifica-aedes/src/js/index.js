@@ -4,3 +4,22 @@ var loadFile = function(event) {
   var botaoAnalisa = document.getElementById("btn-analisa");
   botaoAnalisa.style.display = "block";
 };
+
+var executeAjax = function(){
+  $.ajax({
+    url:'apiURL',
+    success: loadResult(obj)
+}); 
+}
+
+var loadResult = function(obj){
+  var pMsgResult = document.getElementById("msg-result");
+  pMsgResult.innerText = obj.msg;
+  pMsgResult.style.display = "block";
+
+  var image = document.getElementById('img');
+	// image.src = obj.img;
+
+  var botaoAnalisa = document.getElementById("btn-analisa");
+  botaoAnalisa.style.display = "none";
+}

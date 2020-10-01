@@ -64,3 +64,7 @@ label {
   font-size: 16px;
   display: none;
 }
+
+#msg-result {
+  display: none;
+}
