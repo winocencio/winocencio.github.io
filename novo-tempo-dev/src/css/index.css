@@ -1,3 +1,7 @@
+body {
+    background: #FBFBFB;
+}
+
 .cabecalho-logo {
     background: #1C4D71;
     width:100%;
@@ -20,16 +24,24 @@
     padding: 0 0 !important;
 }
 
-/* .browser-default:focus {
-    padding: 5px;
-    border: 2px solid #005A9C;
-    font-size: 14px;
-    min-width: 250px;
-    max-width: 460px;
-} */
+.browser-default{
+    background: #FFFFFF;
+}
 
 textarea {
     height: 134px;
+}
+
+span {
+    font-family: Gotham, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #005A9C;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 725px){
@@ -55,11 +67,20 @@ textarea {
         font-size: 14px;
         width: 460px;
     }
+
+    .btn {
+        width: 203px;
+        height: 46px;
+        background: #005A9C;
+        border: 2px solid #005A9C;
+        box-sizing: border-box;
+        border-radius: 8px;
+    } 
 }
 
 @media screen and (max-width: 1025px){
     .container{
-        margin-top: 15%;
+        margin-top: 25%;
         margin-left: 5%;
         width: auto;
     }
@@ -68,8 +89,25 @@ textarea {
         padding: 5px;
         border: 2px solid #005A9C;
         font-size: 14px;
-        width: 460px;
+        width: 95%;
     }
+
+    .div-button {
+        position: fixed;
+        bottom: 0;
+        z-index: 100;
+        background: #FFFFFF;
+    }
+
+    .btn {
+        justify-content: center;
+        height: 46px;
+        background: #005A9C;
+        border: 2px solid #005A9C;
+        box-sizing: border-box;
+        width: 90%;
+        margin-bottom: 5%;
+    } 
 }
 
 @media screen and (max-width: 725px){
@@ -83,15 +121,3 @@ textarea {
 }
 
 /* Mudar para ser responsivo */
-/* .btn {
-    position: absolute;
-    width: 203px;
-    height: 46px;
-    left: 484px;
-    bottom: 100px;
-
-    background: #005A9C;
-    border: 2px solid #005A9C;
-    box-sizing: border-box;
-    border-radius: 8px;
-} */
