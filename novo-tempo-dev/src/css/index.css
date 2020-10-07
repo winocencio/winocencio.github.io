@@ -46,6 +46,7 @@ textarea {
     .container{
         margin-top: 4%;
         margin-left: 36%;
+        width: auto;
     }
 
     .browser-default {
@@ -58,8 +59,9 @@ textarea {
 
 @media screen and (max-width: 1025px){
     .container{
-        margin-top: 4%;
+        margin-top: 15%;
         margin-left: 5%;
+        width: auto;
     }
 
     .browser-default {
