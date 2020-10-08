@@ -2,6 +2,11 @@ body {
     background: #FBFBFB;
 }
 
+.link-navegacao{
+    padding: 30px;
+    font-weight: 500;
+}
+
 .cabecalho-logo {
     background: #1C4D71;
     width:100%;
